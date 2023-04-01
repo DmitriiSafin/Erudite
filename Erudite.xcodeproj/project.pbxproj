@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283714CA29D8443000F13D80 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 283714C929D8443000F13D80 /* README.md */; };
+		283714CD29D844FE00F13D80 /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 283714CC29D844FE00F13D80 /* Screen1.png */; };
+		283714CF29D8450400F13D80 /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 283714CE29D8450400F13D80 /* Screen2.png */; };
 		28BE3A862928E46B009E33B7 /* EruditeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE3A852928E46B009E33B7 /* EruditeApp.swift */; };
 		28BE3A882928E46B009E33B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE3A872928E46B009E33B7 /* ContentView.swift */; };
 		28BE3A8A2928E46D009E33B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BE3A892928E46D009E33B7 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283714C929D8443000F13D80 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		283714CC29D844FE00F13D80 /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1.png; sourceTree = "<group>"; };
+		283714CE29D8450400F13D80 /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen2.png; sourceTree = "<group>"; };
 		28BE3A822928E46B009E33B7 /* Erudite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erudite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BE3A852928E46B009E33B7 /* EruditeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EruditeApp.swift; sourceTree = "<group>"; };
 		28BE3A872928E46B009E33B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,9 +50,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		283714CB29D844BB00F13D80 /* ReadmeResources */ = {
+			isa = PBXGroup;
+			children = (
+				283714CC29D844FE00F13D80 /* Screen1.png */,
+				283714CE29D8450400F13D80 /* Screen2.png */,
+			);
+			path = ReadmeResources;
+			sourceTree = "<group>";
+		};
 		28BE3A792928E46B009E33B7 = {
 			isa = PBXGroup;
 			children = (
+				283714C929D8443000F13D80 /* README.md */,
+				283714CB29D844BB00F13D80 /* ReadmeResources */,
 				28BE3A842928E46B009E33B7 /* Erudite */,
 				28BE3A832928E46B009E33B7 /* Products */,
 			);
@@ -175,8 +192,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283714CA29D8443000F13D80 /* README.md in Resources */,
 				28BE3A8D2928E46D009E33B7 /* Preview Assets.xcassets in Resources */,
 				28BE3A8A2928E46D009E33B7 /* Assets.xcassets in Resources */,
+				283714CF29D8450400F13D80 /* Screen2.png in Resources */,
+				283714CD29D844FE00F13D80 /* Screen1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Erudite/Preview Content\"";
+				DEVELOPMENT_TEAM = U824AND8KD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -352,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Erudite/Preview Content\"";
+				DEVELOPMENT_TEAM = U824AND8KD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -81,6 +81,7 @@ struct GameView: View {
             
             EruditTextField(word: $word, placeholder: "Ваше слово...")
                 .padding()
+                .autocorrectionDisabled(true)
             
             Button {
                 
@@ -108,6 +109,8 @@ struct GameView: View {
                 if score > 1 {
                     self.word = ""
                 }
+                
+                UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.endEditing(true)
                 
             } label: {
                 Text("Готово!")
@@ -152,6 +155,7 @@ struct GameView: View {
                 Text("Ok")
             }
     }
+    
 }
 
 struct GameView_Previews: PreviewProvider {

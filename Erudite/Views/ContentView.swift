@@ -25,6 +25,7 @@ struct ContentView: View {
                 .padding(20)
                 .padding(.top, 30)
             
+            
             EruditTextField(word: $playerOne, placeholder: "Игрок 1")
                 .padding(.horizontal, 20)
             
@@ -38,6 +39,8 @@ struct ContentView: View {
                 } else {
                     isAlertPresented.toggle()
                 }
+                
+                UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.endEditing(true)
                 
             } label: {
                 Text("Start")
